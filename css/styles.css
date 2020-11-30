@@ -1,0 +1,109 @@
+body{
+font-family: sans-serif;
+}
+h1{
+  font-weight: bold;
+}
+/* NAVBAR */
+.navbar-brand{
+  margin-left: 2rem;
+  font-family: sans-serif;
+  margin-top: 1rem;
+}
+.nav-item{
+  font-family: sans-serif;
+  margin-top: 1rem;
+}
+/* INTRO */
+#Intro{
+  background-color: #393e46;
+  text-align: center;
+  color: #eeeeee;
+  padding-bottom: 80px;
+}
+.profile-img{
+  border-radius: 50%;
+  width: 15%;
+  height: 15%;
+margin: 5rem auto;
+}
+.Intro-p{
+  margin: auto 25%;
+  text-align: center;
+  line-height: 1.5;
+
+}
+#Intro h1{
+  margin: 10px auto 10px auto;
+  color: #ffd369;
+  line-height: 1.5;
+}
+.Education-list{
+  margin-bottom: 0;
+}
+/* PROJECTS SECTION */
+#Projects{
+
+  color: #eeeeee;
+  background-color: #343a40;
+  padding-bottom: 80px;
+
+}
+.kadoorie-img{
+  border-radius:100%;
+  width: 300px;
+  height: 300px;
+margin:7% 15%;
+float: left;
+
+
+}
+.project-kadoorie{
+text-align: center;
+}
+.dj-image{
+  border-radius:100%;
+  width: 300px;
+  height: 300px;
+margin:7% 15%;
+float: left;
+
+}
+.project-text{
+  margin: 15% 10% 2% 10%;
+  color: #ffd369;
+}
+.project-p{
+  width: 70%;
+
+}
+/* FOOTER SECTION */
+
+#footer .container-fluid{
+  background-color: #393e46;
+  text-align: center;
+}
+.footer-icon {
+  color: black;
+  padding: 40px 10px 8px 10px;
+}
+
+.footer-icon:hover {
+  color: white;
+}
+@media (max-width:1028px) {
+  #projects{
+    text-align: center;
+    margin-left: 25%;
+
+  }
+.project-text{
+    width:50%;
+    text-align: center;
+    margin-left: 25%;
+}
+.project-p{
+  width:50%;
+  text-align: center;
+  margin-left: 25%
+}
